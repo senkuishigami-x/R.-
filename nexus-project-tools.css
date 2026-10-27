@@ -1,0 +1,6 @@
+/* NEXUS Workshop v0.7.0 additive toolbar styles */
+.toolbar .tool-separator{flex:0 0 1px;height:24px;background:var(--line);margin:0 2px}
+.toolbar button:disabled{opacity:.45;cursor:not-allowed;transform:none}
+.toolbar button:focus-visible,.top button:focus-visible,.bottom button:focus-visible{outline:2px solid #087eaf;outline-offset:2px}
+#validateProject{border-color:#a9c9b8}
+@media(max-width:520px){.toolbar .tool-separator{margin:0 1px}#undoAction,#redoAction,#validateProject,#exportProject,#importProjectBtn{padding:7px 8px}}
